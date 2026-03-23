@@ -1,0 +1,239 @@
+.high {
+    display: grid;
+    width: 850px; 
+    margin: 0 auto; 
+}
+
+
+.right-column {
+    width: 280px; 
+    flex-shrink: 0; 
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+    .right-column .first_shell {
+        width: 100%; 
+        box-sizing: border-box;
+    }
+
+
+#button {
+    width: 102.5%; 
+    height: 60%;
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+#headers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+
+#it1 {
+    margin-right: 5%;
+}
+
+#it2 {
+    margin-right: 15%;
+    background-color: #f1f1f1;
+    width: 124px;
+    height: 124px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+#it3 {
+    background-color: #f1f1f1;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+.mAin {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+}
+
+#mAine {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 2px;
+    width: 100%;
+}
+
+
+#education {
+    flex: 1;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    padding: 20px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.sect {
+    font-size: 8px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.firstItem {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    padding-left: 20px;
+}
+
+#portret {
+    width: 124px;
+    height: 124px;
+    border-radius: 20px;
+    object-fit: cover;
+    height: auto;
+    transition: transform 1.2s, filter 1s
+}
+    #portret:hover {
+        transform: scale(1.02);
+        filter: brightness(0.9);
+    }
+#photo-upload {
+    display: none;
+}
+
+.slider-container {
+    margin-bottom: 0px;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+.first_shell {
+    width: 100%; /* Занимает всю ширину правой колонки (280px) */
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    flex-flow: column;
+    width: fit-content;
+    height: fit-content;
+}
+
+#edc {
+    flex: 1;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    flex-flow: column;
+}
+
+.black_button {
+    width: 105%; 
+    height: 60%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: black;
+    margin: 0 0 20px 0;
+    color: white;
+}
+
+#UX_UI {
+    background-color: forestgreen;
+    color: white;
+}
+
+
+.descriptiion {
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 0.9em;
+    justify-content: center;
+    align-content: center;
+    padding: 5%;
+}
+
+.interests {
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #ccc;
+    font-size: 0.9em;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+}
+
+section {
+    padding: 0px;
+    margin: 10px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.imggg {
+    width: 30px;
+    margin: 5px;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+    .imggg:hover {
+        transform: scale(1.15) translateY(-3px);
+        filter: brightness(1.1) drop-shadow(0 6px 12px rgba(0,0,0,0.15));
+    }
+
+.h_tools {
+    background-color: black;
+    border-radius: 20px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.imag {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+}

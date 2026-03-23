@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <script type="module" src="/src/main.js"></script>
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Rezume for you</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+  <body contenteditable="true">
+    <header class="high">
+        <section id="headers">
+            <div id="it1">
+                <label for="photo-upload" style="cursor: pointer;">
+                    <img alt="your photo" src="public/photo.png" id="portret" />
+                </label>
+                <input type="file" id="photo-upload" style="display: none;" />
+            </div>
+            <div id="it2">
+                <p>Hello I'm</p>
+                <p>Kashir</p>
+                <p>UX/UI Designer</p>
+            </div>
+            <div id="it3">
+                <p>Languages</p>
+                <div class="slider-container">
+                    <span contenteditable="true">English</span>
+                    <input type="range" min="0" max="100" value="50" />
+                </div>
+
+                <div class="slider-container">
+                    <span contenteditable="true">English</span>
+                    <input type="range" min="0" max="100" value="50" />
+                </div>
+
+                <div class="slider-container">
+                    <span contenteditable="true">English</span>
+                    <input type="range" min="0" max="100" value="50" />
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="high">
+        <section class="mAin">
+            <div id="edc">
+            <h2>Education</h2>
+                <section class="sect" >
+                    <div>
+                        <h6>Jun, 2023 - Present</h6>
+                        <h2>Marketing Manager</h2>
+                        <h6>Pankayam | Full - time</h6>
+                    </div>
+                    <div class="text">
+                        <ul class="firstItem">
+                            <li>Strategy development and planning of compaigns that promote the business and generate genuine traffic</li>
+                            <li>SEO Content Creation for Blogs, Website, Social media</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="sect">
+                    <div>
+                        <h6>J201t7 - Present</h6>
+                        <h2>Graphic / Web designer</h2>
+                        <h6>Freelance</h6>
+                    </div>
+                    <div class="text">
+                        <ul class="firstItem">
+                            <li>Development of internal projects from scratch, product design of brands</li>
+                            <li>Landing page, webapps and hybrid app</li>
+                            <li>Coordinating with outside agencies, art services, web designer, marketing, printers, and colleagues as necessary.</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="sect">
+                    <div>
+                        <h6>Sep. 2021 - Jun. 2023</h6>
+                        <h2>Legal Assistant</h2>
+                        <h6>Law Firm I intern</h6>
+                    </div>
+                    <div class="text">
+                        <ul class="firstItem">
+                            <li>Provide administrative support to lawyer and enhance office effectiveness</li>
+                            <li>Handle communication with clients, witnesses etc.</li>
+                            <li>repare case briefs and summarize depositions, interrogatories and testimony</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="right-column" contenteditable="false">
+                <section class="first_shell">
+                    <h3>Tools</h3>
+                    <div>
+                        <h6 class="h_tools">design</h6>
+                        <div class="imag">
+                            <img src="/photo/Adobe_Illustrator_CC_iconsvg.png" class="imggg" />
+                            <img src="/photo/Adobe_Photoshop_CC_icon.svg.png" class="imggg" />
+                            <img src="/photo/Adobe_Premiere_Pro_CC_icon.svg.png" class="imggg" />
+                            <img src="/photo/chatgpt.png" class="imggg" />
+                            <img src="/photo/figma.png" class="imggg" />
+                            <img src="/photo/google_meet.png" class="imggg" />
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="h_tools">no-code</h6>
+                        <div class="imag">
+                            <img src="/photo/logoFramer.png" class="imggg" />
+                            <img src="/photo/logoWebflow.png" class="imggg" />
+                            <img src="/photo/logoWordpress.png" class="imggg" />
+                            <img src="/photo/logoZapìer 1.png" class="imggg" />
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="h_tools">artificial itelligence</h6>
+                        <div class="imag">
+                            <img src="/photo/midjorney.png" class="imggg" />
+                            <img src="/photo/notion-logo_brandlogos.net_uiish.png" class="imggg" />
+                            <img src="/photo/something.png" class="imggg" />
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <div id="mAine">
+            <section id="education" class="first_shell">
+                <div class="descriptiion" id="UX_UI">
+                    <h4>
+                        2023<br />
+                        UI/UX<br />
+                    </h4>
+                    <p>
+                        #UX #UI #research<br />
+                        #DesignSystem #Ui<br />
+                        #wireframing #figma<br />
+                        #Ux<br />
+                    </p>
+                    <p>Coursera</p>
+                </div>
+                <div class="descriptiion">
+                    <h4>
+                        2017 - 2022<br />
+                        Law<br />
+                    </h4>
+                    <p>
+                        #law #legalStudies<br />
+                        #contracts<br />
+                        #internationalLaws<br />
+                    </p>
+                    <p>University of Kerala</p>
+                </div>
+                <div class="descriptiion" style="grid-column: 1 / 3;">
+                    <h4>
+                        2017<br />
+                        Graphic design<br />
+                    </h4>
+                    <p>
+                        #branding #web<br />
+                        #illustration #adobe<br />
+                    </p>
+                    <p>Coursrea</p>
+                </div>
+            </section>
+            <div class="right-column" style="display: flex; flex-direction: column; gap: 2.5%;">
+                <section class="first_shell">
+                    <h3>Interests</h3>
+                    <div class="tags">
+                        <span class="interests">branding</span>
+                        <span class="interests">design</span>
+                        <span class="interests">photography</span>
+                        <span class="interests">artificial intelligence</span>
+                        <span class="interests">illustration</span>
+                        <span class="interests">typography</span>
+                        <span class="interests">social networks</span>
+                        <span class="interests">research</span>
+                        <span class="interests">dron pilot</span>
+                        <span class="interests">games</span>
+                    </div>
+                </section>
+
+                <section class="black_button">
+                    <span>Let's chat! I'm ready to work on excinting projects <a href="mailto:email.ru" style="color: white; text-decoration: underline;">email.ru</a></span>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="high" contenteditable="false">
+            <div>
+                <button id="button">Скачать Резюме (PDF)</button>
+            </div>
+    </footer>
+  </body>
+</html>
